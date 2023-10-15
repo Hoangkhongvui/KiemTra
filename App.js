@@ -17,7 +17,7 @@ function App() {
         <Stack.Screen name="Landing" component={LandingScreen} />
         <Stack.Screen name="Login" component={LoginScreen} />
         <Stack.Screen name="SignUp" component={SignUpScreen} />
-        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen name="Home" component={HomeScreen} options={{headerShown: false}}/>
         <Stack.Screen name="Menu" component={MenuScreen} />    
         <Stack.Screen name="Detail" component={Detail} options={{ headerShown: false}}/>
       </Stack.Navigator>
